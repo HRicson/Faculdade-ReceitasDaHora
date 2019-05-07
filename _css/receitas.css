@@ -1,0 +1,17 @@
+@charset "UTF-8";
+/* Página receitas */
+figure.img-receitas {
+    padding-top: 20px;
+}
+
+figure.img-receitas img{
+    width: 200px;
+}
+
+/* Corpo da pág */
+
+section#corpo-rec {
+    padding-left: 60px;
+    padding-bottom: 30px;
+    padding-top: 20px;
+}

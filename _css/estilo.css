@@ -1,0 +1,201 @@
+@charset "UTF-8";
+
+/* Div topo da pág */
+
+div#logo {
+    text-align: right;
+}
+
+div#topo {
+    background-color: rgb(255, 119, 0);
+}
+
+div#topo2 {
+    background-color: #ddd;
+}
+
+/* Menu principal */
+
+ul#menu li a {
+    font-family: pt-sans, sans-serif;
+    font-size: 20px;
+    color: #fff;
+    text-decoration: none;
+}
+
+ul#menu li:hover {
+    background-color: #575757;
+}
+
+ul#menu li {
+    list-style-type: none;
+    display: inline-block;
+    align-content: center;
+    padding: 20px;
+    padding-right: 40px;
+    padding-left: 40px;
+    cursor: pointer;
+}
+
+/* Menu tipos de receitas */
+
+ul#tipos-receitas {
+    padding-left: 270px;
+}
+
+ul#tipos-receitas li {
+    list-style-type: none;
+    display: inline-block;
+    padding: 12px;
+    padding-left: 15px;
+    padding-right: 15px;
+    cursor: pointer;
+}
+
+ul#tipos-receitas li a {
+    font-size: 18px;
+    color: #333;
+    text-decoration: none;
+}
+
+ul#tipos-receitas li:hover {
+    background-color: rgb(255, 119, 0);
+    text-decoration: none;
+    list-style-type: none;
+}
+
+/* Modo de preparo */
+
+ul#modo-preparo li {
+    list-style-type: decimal;
+}
+
+/* Corpo da pág */
+
+section#corpo {
+    padding-left: 320px;
+    padding-bottom: 200px;
+}
+
+/* Página inicial - Imagens */
+
+figure.img-index {
+    position: relative;
+    border: 1px solid #000;
+    width: 350px;
+    box-shadow: 1px 1px 4px #333;
+}
+
+figure.img-index img {
+    width: 100%;
+    height: 100%;
+}
+
+figure.img-index figcaption {
+    opacity: 0;
+    position: absolute;
+    top: 0px;
+    background-color: rgba(255, 136, 34, 0.18);
+    color: rgb(255, 119, 0);
+    width: 100%;
+    height: 100%;
+    padding: 5px;
+    box-sizing: border-box;
+    transition: opacity 1s;
+}
+
+figure.img-index:hover figcaption {
+    opacity: 1;
+}
+
+figure.img-index figcaption h3 {
+    font-size: 19pt;
+    color: #fff;
+}
+
+/* Formularios */
+
+form fieldset {
+    margin-top: 40px;
+}
+
+label {
+    padding-right: 5px;
+}
+
+input#btnEnviar {
+    background-color: #ff861e;
+    border: 1px solid #000;
+}
+
+input#btnEnviar:hover {
+    background-color: #ff5800;
+}
+
+/* Buscar */
+
+#Buscar {
+    height: 28px;
+    margin-left: 50px;
+}
+
+#imgBuscar {
+    margin-left: -1px;
+    margin-bottom: 2px;
+    background-color: #fff;
+    height: 26px;
+}
+
+#imgBuscar:hover {
+    background-color: #575757;
+}
+
+/* Texto */
+
+h1 {
+    color: #f50;
+    font-size: 28pt;
+}
+
+*/ */ h2 {
+    color: #0f0f0f;
+    font-size: 20pt;
+}
+
+h3 {
+    color: #0f0f0f;
+    font-size: 16pt;
+}
+
+li {
+    color: #0f0f0f;
+    font-size: 13pt;
+}
+
+
+p {
+    font-size: 16px;
+    color: #0f0f0f;
+}
+
+a {
+    color: #ff5800;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #ff5800;
+    text-decoration: underline;
+}
+
+/* Rodapé */
+
+footer#rodape {
+    background-color: #ffecdc;
+    border: 1px solid #ff963b;
+    text-align: center;
+}
+
+footer#rodape p{
+    margin-top: 1.8em;
+}
